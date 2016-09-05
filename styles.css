@@ -1,0 +1,50 @@
+body {
+	background-image: url('wood.jpg');
+}
+
+.box {
+	padding: 1px;
+	font-family: verdana;
+	text-shadow: 2px 2px lightgrey;
+	background-color: white;
+	opacity: 0.8;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.judul {
+	margin: 20px;
+	position: relative;
+	font-size: 50px ;
+	text-align: center;
+}
+
+.wrap {
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.nav {
+	margin: 0 20px 0 20px;
+	position: relative;
+	width: 20%;
+	overflow: auto;
+	float: right;
+}
+
+.isi {
+	margin: 0 20px 0 20px;
+	position: relative;
+	width: 70%;
+	float: left;
+}
+
+img {
+	max-width: 500px;
+	max-height: 500px;
+	opacity: 1;
+	display: block;
+	margin: auto;
+}
