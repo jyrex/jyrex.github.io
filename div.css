@@ -1,0 +1,53 @@
+.text {
+	font-family: verdana;
+}
+
+.white {
+	padding: 5px;
+	font-family: verdana;
+	background-color: white;
+	opacity: 0.8;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box {
+	margin: 20px;
+	position: relative;
+}
+
+.judul {
+	margin: 20px;
+	position: relative;
+	font-size: 50px ;
+	text-align: center;
+}
+
+.isi {
+	margin: 0 20px 0 20px;
+	position: relative;
+	max-width: 70%;
+	display: inline-block;
+	text-align: justify;
+}
+
+.dash {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    z-index: 1000;
+}
+
+.navi {
+	border-style: double;
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	width: 20%;
+	display: inline-block;
+	padding: 20px
+}
+
+.data {
+
+}
