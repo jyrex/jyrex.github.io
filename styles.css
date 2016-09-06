@@ -47,3 +47,8 @@ img {
 	display: block;
 	margin: auto;
 }
+
+table.one {
+	margin: 20px;
+	border: solid;
+}
