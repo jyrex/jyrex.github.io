@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Profil Jyrex</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link rel="stylesheet" type="text/css" href="div.css">
+<link rel="stylesheet" type="text/css" href="objects.css">
+<link rel="stylesheet" type="text/css" href="content.css">
+<link rel="stylesheet" type="text/css" href="navigation.css">
 </head>
 <body>
 
@@ -61,19 +62,13 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			<table class="one">
-				<tr>
-					<td colspan="3">ini kolom lebar</td>
-				</tr>
-				<tr>
-					<td>sempit 1</td>
-					<td>sempit 2</td>
-					<td>sempit 3</td>
-				</tr>
-			</table>
 			<br><br>
 		</div>
 		<div class="navi">
+			<div class="search">
+				<input type="text" name="search" placeholder="search here">
+				<button>search</button>
+			</div><br>
 			Posts :<br>
 			<ul class="nav">
 				<li class="nav"><a href="">Post 1</a></li>
@@ -83,6 +78,22 @@
 				<li class="nav"><a href="">Post 5</a></li>
 				<li class="nav"><a href="">Post 6</a></li>
 			</ul>
+			<table class="one">
+				<tr>
+					<td colspan="3">Rate this page</td>
+				</tr>
+				<tr>
+					<td><input type="radio" name="rating">bad</td>
+					<td><input type="radio" name="rating">average</td>
+					<td><input type="radio" name="rating">good</td>
+				</tr>
+				<tr>
+					<td colspan="3"><input type="text" name="comment" placeholder="comment here.."></td>
+				</tr>
+				<tr>
+					<td><button>submit</button></td>
+				</tr>
+			</table>
 		</div>
 	</div>
 </div>
